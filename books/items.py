@@ -8,3 +8,9 @@ class BooksItem(Item):
     price = Field()
     img_url = Field()
     detail_page_url = Field()
+
+
+class QuotesItem(Item):
+    quote = Field()
+    author = Field()
+    tags = Field()
